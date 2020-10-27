@@ -1,0 +1,16 @@
+# things that will be excluded from Git and Github 
+# virtual environment
+venv/ 
+#won't be pushed up to github
+__pycache__/
+
+#Flask
+instance/*
+!instance/.gitignore
+.webassets-cache
+# Flask.Python Stack
+# Byte compiled /optimized/DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
